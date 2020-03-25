@@ -9,7 +9,7 @@ pipeline {
                         label 'windows'
                     }
                     steps {
-                        cmd '\\tools\\msys64\\usr\\bin\\bash build_freefem.sh'
+                        bat '\\tools\\msys64\\usr\\bin\\bash build_freefem.sh'
                     }
                 }
                 
