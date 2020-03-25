@@ -2,3 +2,5 @@
   by `./configure`.
 - Makefile target `petsc-slepc` needs `python2.7`, which is not checked
   by `./configure`.
+- Makefile target `petsc-slepc` needs `mpicc`, which is not required
+  by `./configure`.
