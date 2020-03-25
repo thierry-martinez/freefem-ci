@@ -1,4 +1,4 @@
 #!/bin/bash
 set -ex
 
-git clone git@github.com:FreeFem/FreeFem-sources.git
+git clone https://github.com/FreeFem/FreeFem-sources.git
