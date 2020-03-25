@@ -18,7 +18,7 @@ pipeline {
                         label 'linux'
                     }
                     steps {
-                        sh 'docker build -t freefem docker'
+                        sh 'docker build -t freefem .'
                     }
                 }
             }
