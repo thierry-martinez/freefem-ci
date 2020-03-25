@@ -4,3 +4,5 @@
   by `./configure`.
 - Makefile target `petsc-slepc` needs `mpicc`, which is not required
   by `./configure`.
+- Makefile target `petsc-slepc` needs `cmake`, which is not checked
+  by `./configure`.
