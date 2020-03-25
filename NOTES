@@ -1,2 +1,4 @@
 - `3rdparty/getall -a` needs the command `file`, which is not checked
   by `./configure`.
+- Makefile target `petsc-slepc` needs `python2.7`, which is not checked
+  by `./configure`.
