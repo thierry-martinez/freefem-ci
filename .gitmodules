@@ -1,0 +1,3 @@
+[submodule "FreeFem-sources"]
+	path = FreeFem-sources
+	url = https://github.com/FreeFem/FreeFem-sources.git
