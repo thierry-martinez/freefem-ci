@@ -12,7 +12,7 @@ WORKDIR /home/user
 COPY configure_environment.sh .
 RUN ./configure_environment.sh
 
-COPY FreeFem-sources .
+COPY FreeFem-sources FreeFem-sources
 
 COPY build_freefem.sh .
 RUN ./build_freefem.sh
